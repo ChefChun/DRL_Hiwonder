@@ -1,0 +1,132 @@
+running egg_info
+creating ../../build/robot_gazebo/robot_gazebo.egg-info
+writing ../../build/robot_gazebo/robot_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_gazebo/robot_gazebo.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_gazebo/robot_gazebo.egg-info/entry_points.txt
+writing requirements to ../../build/robot_gazebo/robot_gazebo.egg-info/requires.txt
+writing top-level names to ../../build/robot_gazebo/robot_gazebo.egg-info/top_level.txt
+writing manifest file '../../build/robot_gazebo/robot_gazebo.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_gazebo/robot_gazebo.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_gazebo/robot_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/ros2_ws/build/robot_gazebo/build
+creating /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib
+creating /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo
+copying robot_gazebo/cmd_vel_modifier.py -> /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo
+copying robot_gazebo/teleop_key_control.py -> /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo
+copying robot_gazebo/__init__.py -> /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo
+running install
+running install_lib
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo
+copying /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo/cmd_vel_modifier.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo
+copying /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo/teleop_key_control.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo
+copying /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo/__init__.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo
+byte-compiling /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo/cmd_vel_modifier.py to cmd_vel_modifier.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo/teleop_key_control.py to teleop_key_control.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/packages
+copying resource/robot_gazebo -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+copying launch/room_with_box_and_goal.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+copying launch/ros_ign_bridge.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+copying launch/all_training.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+copying launch/spwan_model.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+copying launch/spawn_objects.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+copying launch/room_worlds.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+copying launch/spawn_model.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+copying launch/worlds.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+copying urdf/imu.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+copying urdf/robot.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+copying urdf/camera.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+copying urdf/jetacker.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+copying urdf/wheel_base.urdf.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+copying urdf/lidar.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+copying config/slam.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+copying config/localization.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+copying config/nav2_controller_dwb.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+copying config/nav2_params.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+copying config/robot_config.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+copying config/nav2_controller_teb.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+copying worlds/empty.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+copying worlds/room_with_box_and_goal.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+copying worlds/robocup_home.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+copying worlds/all_training.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps
+copying maps/map_01.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps
+copying maps/map_01.pgm -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz
+copying rviz/nav_nav2.rviz -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz
+copying rviz/slam.rviz -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include
+copying launch/include/localization.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include
+copying launch/include/navigation.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include
+copying launch/include/slam.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/bed.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/sofa.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/cupboard.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/chair.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/tea_table.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/bookshelft.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/table.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/bottle.stl -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+copying meshes/bed/Wood_Bamboo.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+copying meshes/bed/Carpet_Pattern_Squares_Multi.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft
+copying meshes/bookshelft/Wood_Veneer_02.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/chair
+copying meshes/chair/Wood_Cherry_Original.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/chair
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/cupboard
+copying meshes/cupboard/Wood_Veneer_02.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/cupboard
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/sofa
+copying meshes/sofa/Carpet_Loop_Pattern.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/sofa
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/table
+copying meshes/tea_table/Wood_Cherry_Original.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/table
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/tea_table
+copying meshes/tea_table/Wood_Cherry_Original.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/tea_table
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+copying meshes/wpr1/upperarm.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+copying meshes/wpr1/base.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+copying meshes/wpr1/fingertip.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+copying meshes/wpr1/palm.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+copying meshes/wpr1/finger.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+copying meshes/wpr1/forearm.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+copying meshes/wpr1/torso.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+copying models/sofa.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+copying models/kai_standing.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+copying models/bed.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+copying models/tea_table.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+copying models/bookshelft.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bed
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+copying models/bottles/red_bottle.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+copying models/bottles/green_bottle.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+copying models/cupboard/cupboard_1.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+copying models/cupboard/cupboard_0.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+copying models/table/dinning_table_0.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+copying models/table/kitchen_table.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+copying models/table/dinning_table_2.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+copying models/table/dinning_table_1.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+copying models/table/dinning_table_3.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+copying models/chair/chair_1.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+copying models/chair/chair_2.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+copying models/chair/chair_0.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+copying models/chair/chair_3.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+running install_egg_info
+Copying ../../build/robot_gazebo/robot_gazebo.egg-info to /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing teleop_key_control script to /home/ubuntu/ros2_ws/install/robot_gazebo/lib/robot_gazebo
+writing list of installed files to '/home/ubuntu/ros2_ws/build/robot_gazebo/install.log'

@@ -1,0 +1,50 @@
+[0.856s] Invoking command in '/home/ubuntu/ros2_ws/src/slam': PYTHONPATH=/home/ubuntu/ros2_ws/build/slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam build --build-base /home/ubuntu/ros2_ws/build/slam/build install --record /home/ubuntu/ros2_ws/build/slam/install.log --single-version-externally-managed install_data
+[0.982s] running egg_info
+[0.982s] creating ../../build/slam/slam.egg-info
+[0.982s] writing ../../build/slam/slam.egg-info/PKG-INFO
+[0.983s] writing dependency_links to ../../build/slam/slam.egg-info/dependency_links.txt
+[0.983s] writing entry points to ../../build/slam/slam.egg-info/entry_points.txt
+[0.983s] writing requirements to ../../build/slam/slam.egg-info/requires.txt
+[0.983s] writing top-level names to ../../build/slam/slam.egg-info/top_level.txt
+[0.983s] writing manifest file '../../build/slam/slam.egg-info/SOURCES.txt'
+[0.985s] reading manifest file '../../build/slam/slam.egg-info/SOURCES.txt'
+[0.985s] writing manifest file '../../build/slam/slam.egg-info/SOURCES.txt'
+[0.986s] running build
+[0.986s] running build_py
+[0.987s] creating /home/ubuntu/ros2_ws/build/slam/build
+[0.987s] creating /home/ubuntu/ros2_ws/build/slam/build/lib
+[0.987s] creating /home/ubuntu/ros2_ws/build/slam/build/lib/slam
+[0.988s] copying slam/__init__.py -> /home/ubuntu/ros2_ws/build/slam/build/lib/slam
+[0.988s] running install
+[0.988s] running install_lib
+[0.988s] creating /home/ubuntu/ros2_ws/install/slam/lib/python3.10/site-packages/slam
+[0.988s] copying /home/ubuntu/ros2_ws/build/slam/build/lib/slam/__init__.py -> /home/ubuntu/ros2_ws/install/slam/lib/python3.10/site-packages/slam
+[0.988s] byte-compiling /home/ubuntu/ros2_ws/install/slam/lib/python3.10/site-packages/slam/__init__.py to __init__.cpython-310.pyc
+[0.988s] running install_data
+[0.988s] creating /home/ubuntu/ros2_ws/install/slam/share/ament_index
+[0.988s] creating /home/ubuntu/ros2_ws/install/slam/share/ament_index/resource_index
+[0.988s] creating /home/ubuntu/ros2_ws/install/slam/share/ament_index/resource_index/packages
+[0.988s] copying resource/slam -> /home/ubuntu/ros2_ws/install/slam/share/ament_index/resource_index/packages
+[0.988s] copying package.xml -> /home/ubuntu/ros2_ws/install/slam/share/slam
+[0.988s] creating /home/ubuntu/ros2_ws/install/slam/share/slam/launch
+[0.988s] copying launch/rviz_rtabmap.launch.py -> /home/ubuntu/ros2_ws/install/slam/share/slam/launch
+[0.989s] copying launch/rtabmap_slam.launch.py -> /home/ubuntu/ros2_ws/install/slam/share/slam/launch
+[0.989s] copying launch/rviz_slam.launch.py -> /home/ubuntu/ros2_ws/install/slam/share/slam/launch
+[0.990s] copying launch/slam.launch.py -> /home/ubuntu/ros2_ws/install/slam/share/slam/launch
+[0.990s] creating /home/ubuntu/ros2_ws/install/slam/share/slam/launch/include
+[0.990s] copying launch/include/robot.launch.py -> /home/ubuntu/ros2_ws/install/slam/share/slam/launch/include
+[0.991s] copying launch/include/slam_base.launch.py -> /home/ubuntu/ros2_ws/install/slam/share/slam/launch/include
+[0.991s] copying launch/include/rtabmap.launch.py -> /home/ubuntu/ros2_ws/install/slam/share/slam/launch/include
+[0.992s] creating /home/ubuntu/ros2_ws/install/slam/share/slam/config
+[0.993s] copying config/slam.yaml -> /home/ubuntu/ros2_ws/install/slam/share/slam/config
+[0.993s] creating /home/ubuntu/ros2_ws/install/slam/share/slam/rviz
+[0.993s] copying rviz/rtabmap.rviz -> /home/ubuntu/ros2_ws/install/slam/share/slam/rviz
+[0.993s] copying rviz/slam.rviz -> /home/ubuntu/ros2_ws/install/slam/share/slam/rviz
+[0.994s] creating /home/ubuntu/ros2_ws/install/slam/share/slam/maps
+[0.994s] copying maps/map_01.yaml -> /home/ubuntu/ros2_ws/install/slam/share/slam/maps
+[0.995s] copying maps/map_01.pgm -> /home/ubuntu/ros2_ws/install/slam/share/slam/maps
+[0.995s] running install_egg_info
+[0.997s] Copying ../../build/slam/slam.egg-info to /home/ubuntu/ros2_ws/install/slam/lib/python3.10/site-packages/slam-0.0.0-py3.10.egg-info
+[0.998s] running install_scripts
+[1.013s] writing list of installed files to '/home/ubuntu/ros2_ws/build/slam/install.log'
+[1.040s] Invoked command in '/home/ubuntu/ros2_ws/src/slam' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam build --build-base /home/ubuntu/ros2_ws/build/slam/build install --record /home/ubuntu/ros2_ws/build/slam/install.log --single-version-externally-managed install_data

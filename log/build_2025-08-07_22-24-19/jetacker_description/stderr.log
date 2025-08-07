@@ -1,0 +1,3 @@
+package init file 'jetacker_description/__init__.py' not found (or not a regular file)
+warning: install_lib: '/home/ubuntu/ros2_ws/build/jetacker_description/build/lib' does not exist -- no Python modules to install
+

@@ -1,0 +1,309 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (jetacker_description) JobQueued: {'identifier': 'jetacker_description', 'dependencies': OrderedDict()}
+[0.000196] (navigation) JobQueued: {'identifier': 'navigation', 'dependencies': OrderedDict()}
+[0.000205] (robot_gazebo) JobQueued: {'identifier': 'robot_gazebo', 'dependencies': OrderedDict()}
+[0.000211] (slam) JobQueued: {'identifier': 'slam', 'dependencies': OrderedDict()}
+[0.000217] (jetacker_description) JobStarted: {'identifier': 'jetacker_description'}
+[0.008661] (navigation) JobStarted: {'identifier': 'navigation'}
+[0.012184] (robot_gazebo) JobStarted: {'identifier': 'robot_gazebo'}
+[0.015885] (slam) JobStarted: {'identifier': 'slam'}
+[0.099039] (-) TimerEvent: {}
+[0.199402] (-) TimerEvent: {}
+[0.299729] (-) TimerEvent: {}
+[0.400036] (-) TimerEvent: {}
+[0.500302] (-) TimerEvent: {}
+[0.600704] (-) TimerEvent: {}
+[0.701324] (-) TimerEvent: {}
+[0.801753] (-) TimerEvent: {}
+[0.852951] (robot_gazebo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_gazebo', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/robot_gazebo/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/robot_gazebo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/robot_gazebo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MESA_D3D12_DEFAULT_ADAPTER_NAME': 'NVIDIA', 'MAIL': '/var/mail/ubuntu', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'tty', 'MACHINE_TYPE': 'JetAcker', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds/config.xml', 'OLDPWD': '/home/ubuntu', 'LIDAR_TYPE': 'A1', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'need_compile': 'False', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'MASTER': '/', 'VERSION': '|V1.0.2|App_ROS2_1.0|2024-10-23|', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c6', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'DEPTH_CAMERA_TYPE': 'AstraProPlus', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'HOST': '/', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GALLIUM_DRIVER': 'd3d12', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/home/ubuntu/ros2_ws/build/robot_gazebo', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'ASR_LANGUAGE': 'Chinese', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.859834] (jetacker_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/jetacker_description', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/jetacker_description/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/jetacker_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/jetacker_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MESA_D3D12_DEFAULT_ADAPTER_NAME': 'NVIDIA', 'MAIL': '/var/mail/ubuntu', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'tty', 'MACHINE_TYPE': 'JetAcker', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds/config.xml', 'OLDPWD': '/home/ubuntu', 'LIDAR_TYPE': 'A1', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'need_compile': 'False', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'MASTER': '/', 'VERSION': '|V1.0.2|App_ROS2_1.0|2024-10-23|', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c6', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'DEPTH_CAMERA_TYPE': 'AstraProPlus', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'HOST': '/', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GALLIUM_DRIVER': 'd3d12', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/home/ubuntu/ros2_ws/build/jetacker_description', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'ASR_LANGUAGE': 'Chinese', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/jetacker_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/jetacker_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.864302] (navigation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/navigation', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/navigation/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/navigation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/navigation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MESA_D3D12_DEFAULT_ADAPTER_NAME': 'NVIDIA', 'MAIL': '/var/mail/ubuntu', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'tty', 'MACHINE_TYPE': 'JetAcker', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds/config.xml', 'OLDPWD': '/home/ubuntu', 'LIDAR_TYPE': 'A1', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'need_compile': 'False', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'MASTER': '/', 'VERSION': '|V1.0.2|App_ROS2_1.0|2024-10-23|', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c6', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'DEPTH_CAMERA_TYPE': 'AstraProPlus', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'HOST': '/', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GALLIUM_DRIVER': 'd3d12', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/home/ubuntu/ros2_ws/build/navigation', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'ASR_LANGUAGE': 'Chinese', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.871208] (slam) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/slam', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/slam/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/slam/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/slam', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MESA_D3D12_DEFAULT_ADAPTER_NAME': 'NVIDIA', 'MAIL': '/var/mail/ubuntu', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'tty', 'MACHINE_TYPE': 'JetAcker', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds/config.xml', 'OLDPWD': '/home/ubuntu', 'LIDAR_TYPE': 'A1', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'need_compile': 'False', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'MASTER': '/', 'VERSION': '|V1.0.2|App_ROS2_1.0|2024-10-23|', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c6', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'DEPTH_CAMERA_TYPE': 'AstraProPlus', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'HOST': '/', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GALLIUM_DRIVER': 'd3d12', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/home/ubuntu/ros2_ws/build/slam', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'ASR_LANGUAGE': 'Chinese', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/slam/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.901906] (-) TimerEvent: {}
+[0.962316] (robot_gazebo) StdoutLine: {'line': b'running egg_info\n'}
+[0.962825] (robot_gazebo) StdoutLine: {'line': b'creating ../../build/robot_gazebo/robot_gazebo.egg-info\n'}
+[0.963282] (robot_gazebo) StdoutLine: {'line': b'writing ../../build/robot_gazebo/robot_gazebo.egg-info/PKG-INFO\n'}
+[0.963732] (robot_gazebo) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_gazebo/robot_gazebo.egg-info/dependency_links.txt\n'}
+[0.963958] (robot_gazebo) StdoutLine: {'line': b'writing entry points to ../../build/robot_gazebo/robot_gazebo.egg-info/entry_points.txt\n'}
+[0.964127] (robot_gazebo) StdoutLine: {'line': b'writing requirements to ../../build/robot_gazebo/robot_gazebo.egg-info/requires.txt\n'}
+[0.964178] (robot_gazebo) StdoutLine: {'line': b'writing top-level names to ../../build/robot_gazebo/robot_gazebo.egg-info/top_level.txt\n'}
+[0.964205] (robot_gazebo) StdoutLine: {'line': b"writing manifest file '../../build/robot_gazebo/robot_gazebo.egg-info/SOURCES.txt'\n"}
+[0.965101] (robot_gazebo) StdoutLine: {'line': b"reading manifest file '../../build/robot_gazebo/robot_gazebo.egg-info/SOURCES.txt'\n"}
+[0.965645] (robot_gazebo) StdoutLine: {'line': b"writing manifest file '../../build/robot_gazebo/robot_gazebo.egg-info/SOURCES.txt'\n"}
+[0.966012] (robot_gazebo) StdoutLine: {'line': b'running build\n'}
+[0.966247] (robot_gazebo) StdoutLine: {'line': b'running build_py\n'}
+[0.966327] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/robot_gazebo/build\n'}
+[0.966501] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib\n'}
+[0.966623] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo\n'}
+[0.966780] (robot_gazebo) StdoutLine: {'line': b'copying robot_gazebo/cmd_vel_modifier.py -> /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo\n'}
+[0.966818] (robot_gazebo) StdoutLine: {'line': b'copying robot_gazebo/teleop_key_control.py -> /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo\n'}
+[0.967658] (robot_gazebo) StdoutLine: {'line': b'copying robot_gazebo/__init__.py -> /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo\n'}
+[0.968069] (robot_gazebo) StdoutLine: {'line': b'running install\n'}
+[0.968128] (robot_gazebo) StdoutLine: {'line': b'running install_lib\n'}
+[0.968498] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo\n'}
+[0.968691] (robot_gazebo) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo/cmd_vel_modifier.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo\n'}
+[0.969118] (robot_gazebo) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo/teleop_key_control.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo\n'}
+[0.969250] (robot_gazebo) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo/__init__.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo\n'}
+[0.969451] (robot_gazebo) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo/cmd_vel_modifier.py to cmd_vel_modifier.cpython-310.pyc\n'}
+[0.969739] (robot_gazebo) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo/teleop_key_control.py to teleop_key_control.cpython-310.pyc\n'}
+[0.970210] (robot_gazebo) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo/__init__.py to __init__.cpython-310.pyc\n'}
+[0.970416] (robot_gazebo) StdoutLine: {'line': b'running install_data\n'}
+[0.970466] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index\n'}
+[0.970558] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index\n'}
+[0.970672] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/packages\n'}
+[0.970891] (robot_gazebo) StdoutLine: {'line': b'copying resource/robot_gazebo -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/packages\n'}
+[0.971134] (robot_gazebo) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo\n'}
+[0.971294] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[0.971631] (robot_gazebo) StdoutLine: {'line': b'copying launch/room_with_box_and_goal.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[0.971755] (robot_gazebo) StdoutLine: {'line': b'copying launch/ros_ign_bridge.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[0.972241] (robot_gazebo) StdoutLine: {'line': b'copying launch/all_training.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[0.972618] (robot_gazebo) StdoutLine: {'line': b'copying launch/spwan_model.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[0.973183] (robot_gazebo) StdoutLine: {'line': b'copying launch/spawn_objects.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[0.973576] (navigation) StdoutLine: {'line': b'running egg_info\n'}
+[0.973858] (robot_gazebo) StdoutLine: {'line': b'copying launch/room_worlds.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[0.974250] (robot_gazebo) StdoutLine: {'line': b'copying launch/spawn_model.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[0.974488] (navigation) StdoutLine: {'line': b'creating ../../build/navigation/navigation.egg-info\n'}
+[0.974752] (navigation) StdoutLine: {'line': b'writing ../../build/navigation/navigation.egg-info/PKG-INFO\n'}
+[0.975189] (navigation) StdoutLine: {'line': b'writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt\n'}
+[0.975444] (navigation) StdoutLine: {'line': b'writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt\n'}
+[0.975525] (navigation) StdoutLine: {'line': b'writing requirements to ../../build/navigation/navigation.egg-info/requires.txt\n'}
+[0.975743] (navigation) StdoutLine: {'line': b'writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt\n'}
+[0.976021] (navigation) StdoutLine: {'line': b"writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'\n"}
+[0.976150] (robot_gazebo) StdoutLine: {'line': b'copying launch/worlds.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch\n'}
+[0.976507] (navigation) StdoutLine: {'line': b"reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'\n"}
+[0.976637] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf\n'}
+[0.976685] (robot_gazebo) StdoutLine: {'line': b'copying urdf/imu.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf\n'}
+[0.976720] (robot_gazebo) StdoutLine: {'line': b'copying urdf/robot.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf\n'}
+[0.976751] (robot_gazebo) StdoutLine: {'line': b'copying urdf/camera.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf\n'}
+[0.976788] (robot_gazebo) StdoutLine: {'line': b'copying urdf/jetacker.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf\n'}
+[0.976817] (robot_gazebo) StdoutLine: {'line': b'copying urdf/wheel_base.urdf.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf\n'}
+[0.977079] (robot_gazebo) StdoutLine: {'line': b'copying urdf/lidar.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf\n'}
+[0.977365] (navigation) StdoutLine: {'line': b"writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'\n"}
+[0.977482] (navigation) StdoutLine: {'line': b'running build\n'}
+[0.977676] (navigation) StdoutLine: {'line': b'running build_py\n'}
+[0.977948] (navigation) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/navigation/build\n'}
+[0.978110] (navigation) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/navigation/build/lib\n'}
+[0.978256] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config\n'}
+[0.978420] (jetacker_description) StdoutLine: {'line': b'running egg_info\n'}
+[0.979060] (robot_gazebo) StdoutLine: {'line': b'copying config/slam.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config\n'}
+[0.979489] (robot_gazebo) StdoutLine: {'line': b'copying config/localization.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config\n'}
+[0.979738] (robot_gazebo) StdoutLine: {'line': b'copying config/nav2_controller_dwb.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config\n'}
+[0.979966] (navigation) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/navigation/build/lib/navigation\n'}
+[0.980208] (navigation) StdoutLine: {'line': b'copying navigation/__init__.py -> /home/ubuntu/ros2_ws/build/navigation/build/lib/navigation\n'}
+[0.980613] (navigation) StdoutLine: {'line': b'running install\n'}
+[0.981161] (navigation) StdoutLine: {'line': b'running install_lib\n'}
+[0.981265] (navigation) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/navigation/lib/python3.10/site-packages/navigation\n'}
+[0.981630] (navigation) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/navigation/build/lib/navigation/__init__.py -> /home/ubuntu/ros2_ws/install/navigation/lib/python3.10/site-packages/navigation\n'}
+[0.981970] (jetacker_description) StdoutLine: {'line': b'creating ../../build/jetacker_description/jetacker_description.egg-info\n'}
+[0.982126] (jetacker_description) StdoutLine: {'line': b'writing ../../build/jetacker_description/jetacker_description.egg-info/PKG-INFO\n'}
+[0.982247] (jetacker_description) StdoutLine: {'line': b'writing dependency_links to ../../build/jetacker_description/jetacker_description.egg-info/dependency_links.txt\n'}
+[0.982582] (robot_gazebo) StdoutLine: {'line': b'copying config/nav2_params.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config\n'}
+[0.982872] (navigation) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/navigation/lib/python3.10/site-packages/navigation/__init__.py to __init__.cpython-310.pyc\n'}
+[0.983060] (jetacker_description) StdoutLine: {'line': b'writing entry points to ../../build/jetacker_description/jetacker_description.egg-info/entry_points.txt\n'}
+[0.983297] (navigation) StdoutLine: {'line': b'running install_data\n'}
+[0.983921] (navigation) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/navigation/share/ament_index\n'}
+[0.984476] (navigation) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/navigation/share/ament_index/resource_index\n'}
+[0.985295] (navigation) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/navigation/share/ament_index/resource_index/packages\n'}
+[0.985596] (navigation) StdoutLine: {'line': b'copying resource/navigation -> /home/ubuntu/ros2_ws/install/navigation/share/ament_index/resource_index/packages\n'}
+[0.985683] (navigation) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/install/navigation/share/navigation\n'}
+[0.985947] (navigation) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/navigation/share/navigation/launch\n'}
+[0.985986] (navigation) StdoutLine: {'line': b'copying launch/rtabmapviz.launch.py -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/launch\n'}
+[0.986009] (navigation) StdoutLine: {'line': b'copying launch/rtabmap_navigation.launch.py -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/launch\n'}
+[0.986029] (jetacker_description) StdoutLine: {'line': b'writing requirements to ../../build/jetacker_description/jetacker_description.egg-info/requires.txt\n'}
+[0.986049] (robot_gazebo) StdoutLine: {'line': b'copying config/robot_config.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config\n'}
+[0.986070] (navigation) StdoutLine: {'line': b'copying launch/navigation.launch.py -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/launch\n'}
+[0.986088] (jetacker_description) StdoutLine: {'line': b'writing top-level names to ../../build/jetacker_description/jetacker_description.egg-info/top_level.txt\n'}
+[0.986106] (jetacker_description) StdoutLine: {'line': b"writing manifest file '../../build/jetacker_description/jetacker_description.egg-info/SOURCES.txt'\n"}
+[0.986124] (robot_gazebo) StdoutLine: {'line': b'copying config/nav2_controller_teb.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config\n'}
+[0.986142] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds\n'}
+[0.986216] (robot_gazebo) StdoutLine: {'line': b'copying worlds/empty.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds\n'}
+[0.986261] (robot_gazebo) StdoutLine: {'line': b'copying worlds/room_with_box_and_goal.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds\n'}
+[0.986287] (jetacker_description) StderrLine: {'line': b"package init file 'jetacker_description/__init__.py' not found (or not a regular file)\n"}
+[0.986492] (robot_gazebo) StdoutLine: {'line': b'copying worlds/robocup_home.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds\n'}
+[0.986673] (robot_gazebo) StdoutLine: {'line': b'copying worlds/all_training.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds\n'}
+[0.986998] (navigation) StdoutLine: {'line': b'copying launch/rviz_rtabmap_navigation.launch.py -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/launch\n'}
+[0.987377] (navigation) StdoutLine: {'line': b'copying launch/rviz_navigation.launch.py -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/launch\n'}
+[0.987529] (navigation) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/navigation/share/navigation/config\n'}
+[0.987674] (navigation) StdoutLine: {'line': b'copying config/nav2_controller_dwb.yaml -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/config\n'}
+[0.987910] (navigation) StdoutLine: {'line': b'copying config/nav2_params.yaml -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/config\n'}
+[0.987947] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps\n'}
+[0.988126] (robot_gazebo) StdoutLine: {'line': b'copying maps/map_01.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps\n'}
+[0.988155] (robot_gazebo) StdoutLine: {'line': b'copying maps/map_01.pgm -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps\n'}
+[0.988181] (navigation) StdoutLine: {'line': b'copying config/nav2_controller_teb.yaml -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/config\n'}
+[0.988398] (navigation) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/navigation/share/navigation/rviz\n'}
+[0.988518] (jetacker_description) StdoutLine: {'line': b"reading manifest file '../../build/jetacker_description/jetacker_description.egg-info/SOURCES.txt'\n"}
+[0.988574] (jetacker_description) StdoutLine: {'line': b"writing manifest file '../../build/jetacker_description/jetacker_description.egg-info/SOURCES.txt'\n"}
+[0.988606] (jetacker_description) StdoutLine: {'line': b'running build\n'}
+[0.988637] (jetacker_description) StdoutLine: {'line': b'running build_py\n'}
+[0.988671] (jetacker_description) StdoutLine: {'line': b'running install\n'}
+[0.988700] (jetacker_description) StdoutLine: {'line': b'running install_lib\n'}
+[0.988728] (jetacker_description) StdoutLine: {'line': b'running install_data\n'}
+[0.988937] (jetacker_description) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/jetacker_description/share/ament_index\n'}
+[0.989205] (jetacker_description) StderrLine: {'line': b"warning: install_lib: '/home/ubuntu/ros2_ws/build/jetacker_description/build/lib' does not exist -- no Python modules to install\n"}
+[0.989408] (jetacker_description) StderrLine: {'line': b'\n'}
+[0.989643] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz\n'}
+[0.989880] (jetacker_description) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/jetacker_description/share/ament_index/resource_index\n'}
+[0.990138] (jetacker_description) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/jetacker_description/share/ament_index/resource_index/packages\n'}
+[0.990505] (jetacker_description) StdoutLine: {'line': b'copying resource/jetacker_description -> /home/ubuntu/ros2_ws/install/jetacker_description/share/ament_index/resource_index/packages\n'}
+[0.990609] (navigation) StdoutLine: {'line': b'copying rviz/navigation.rviz -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/rviz\n'}
+[0.990681] (navigation) StdoutLine: {'line': b'copying rviz/rtabmap.rviz -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/rviz\n'}
+[0.990982] (robot_gazebo) StdoutLine: {'line': b'copying rviz/nav_nav2.rviz -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz\n'}
+[0.991145] (robot_gazebo) StdoutLine: {'line': b'copying rviz/slam.rviz -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz\n'}
+[0.991289] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include\n'}
+[0.991596] (navigation) StdoutLine: {'line': b'copying rviz/navigation_transport.rviz -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/rviz\n'}
+[0.991925] (jetacker_description) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description\n'}
+[0.992342] (jetacker_description) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/launch\n'}
+[0.992598] (jetacker_description) StdoutLine: {'line': b'copying launch/robot_description.launch.py -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/launch\n'}
+[0.992836] (jetacker_description) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/launch\n'}
+[0.993069] (jetacker_description) StdoutLine: {'line': b'copying launch/rviz.launch.py -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/launch\n'}
+[0.993333] (navigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.993599] (robot_gazebo) StdoutLine: {'line': b'copying launch/include/localization.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include\n'}
+[0.993838] (robot_gazebo) StdoutLine: {'line': b'copying launch/include/navigation.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include\n'}
+[0.994062] (robot_gazebo) StdoutLine: {'line': b'copying launch/include/slam.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include\n'}
+[0.994095] (jetacker_description) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf\n'}
+[0.994121] (jetacker_description) StdoutLine: {'line': b'copying urdf/jetacker.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf\n'}
+[0.994142] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[0.994168] (jetacker_description) StdoutLine: {'line': b'copying urdf/imu.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf\n'}
+[0.994237] (robot_gazebo) StdoutLine: {'line': b'copying meshes/bed.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[0.994450] (jetacker_description) StdoutLine: {'line': b'copying urdf/jetacker.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf\n'}
+[0.994687] (navigation) StdoutLine: {'line': b'Copying ../../build/navigation/navigation.egg-info to /home/ubuntu/ros2_ws/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info\n'}
+[0.994784] (robot_gazebo) StdoutLine: {'line': b'copying meshes/sofa.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[0.994824] (navigation) StdoutLine: {'line': b'running install_scripts\n'}
+[0.994846] (jetacker_description) StdoutLine: {'line': b'copying urdf/inertial_matrix.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf\n'}
+[0.994868] (jetacker_description) StdoutLine: {'line': b'copying urdf/materials.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf\n'}
+[0.994886] (robot_gazebo) StdoutLine: {'line': b'copying meshes/cupboard.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[0.994903] (jetacker_description) StdoutLine: {'line': b'copying urdf/lidar_a1.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf\n'}
+[0.995013] (jetacker_description) StdoutLine: {'line': b'copying urdf/lidar.gazebo.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf\n'}
+[0.995113] (robot_gazebo) StdoutLine: {'line': b'copying meshes/chair.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[0.995358] (robot_gazebo) StdoutLine: {'line': b'copying meshes/tea_table.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[0.995402] (robot_gazebo) StdoutLine: {'line': b'copying meshes/bookshelft.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[0.995434] (jetacker_description) StdoutLine: {'line': b'copying urdf/lidar_g4.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf\n'}
+[0.995472] (robot_gazebo) StdoutLine: {'line': b'copying meshes/table.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[0.995501] (robot_gazebo) StdoutLine: {'line': b'copying meshes/bottle.stl -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes\n'}
+[0.995522] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed\n'}
+[0.995541] (jetacker_description) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/rviz\n'}
+[0.995561] (jetacker_description) StdoutLine: {'line': b'copying rviz/view.rviz -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/rviz\n'}
+[0.995580] (jetacker_description) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes\n'}
+[0.995598] (jetacker_description) StdoutLine: {'line': b'copying meshes/wheel_right_back.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes\n'}
+[0.995619] (robot_gazebo) StdoutLine: {'line': b'copying meshes/bed/Wood_Bamboo.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed\n'}
+[0.995636] (jetacker_description) StdoutLine: {'line': b'copying meshes/back_shell_link.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes\n'}
+[0.995653] (robot_gazebo) StdoutLine: {'line': b'copying meshes/bed/Carpet_Pattern_Squares_Multi.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed\n'}
+[0.995671] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft\n'}
+[0.995689] (robot_gazebo) StdoutLine: {'line': b'copying meshes/bookshelft/Wood_Veneer_02.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft\n'}
+[0.995706] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/chair\n'}
+[0.995723] (jetacker_description) StdoutLine: {'line': b'copying meshes/depth_cam_link.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes\n'}
+[0.995741] (robot_gazebo) StdoutLine: {'line': b'copying meshes/chair/Wood_Cherry_Original.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/chair\n'}
+[0.995768] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/cupboard\n'}
+[0.995836] (jetacker_description) StdoutLine: {'line': b'copying meshes/wheel_left_front.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes\n'}
+[0.996077] (robot_gazebo) StdoutLine: {'line': b'copying meshes/cupboard/Wood_Veneer_02.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/cupboard\n'}
+[0.996148] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/sofa\n'}
+[0.996184] (robot_gazebo) StdoutLine: {'line': b'copying meshes/sofa/Carpet_Loop_Pattern.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/sofa\n'}
+[0.996533] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/table\n'}
+[0.996807] (robot_gazebo) StdoutLine: {'line': b'copying meshes/tea_table/Wood_Cherry_Original.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/table\n'}
+[0.997204] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/tea_table\n'}
+[0.997349] (jetacker_description) StdoutLine: {'line': b'copying meshes/link1.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes\n'}
+[0.997523] (slam) StdoutLine: {'line': b'running egg_info\n'}
+[0.997914] (robot_gazebo) StdoutLine: {'line': b'copying meshes/tea_table/Wood_Cherry_Original.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/tea_table\n'}
+[0.997971] (slam) StdoutLine: {'line': b'creating ../../build/slam/slam.egg-info\n'}
+[0.998106] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[0.998236] (robot_gazebo) StdoutLine: {'line': b'copying meshes/wpr1/upperarm.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[0.998394] (slam) StdoutLine: {'line': b'writing ../../build/slam/slam.egg-info/PKG-INFO\n'}
+[0.998962] (jetacker_description) StdoutLine: {'line': b'copying meshes/wheel_right_front.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes\n'}
+[0.999142] (slam) StdoutLine: {'line': b'writing dependency_links to ../../build/slam/slam.egg-info/dependency_links.txt\n'}
+[0.999269] (slam) StdoutLine: {'line': b'writing entry points to ../../build/slam/slam.egg-info/entry_points.txt\n'}
+[0.999319] (slam) StdoutLine: {'line': b'writing requirements to ../../build/slam/slam.egg-info/requires.txt\n'}
+[0.999369] (slam) StdoutLine: {'line': b'writing top-level names to ../../build/slam/slam.egg-info/top_level.txt\n'}
+[0.999399] (slam) StdoutLine: {'line': b"writing manifest file '../../build/slam/slam.egg-info/SOURCES.txt'\n"}
+[0.999752] (robot_gazebo) StdoutLine: {'line': b'copying meshes/wpr1/base.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[1.000218] (jetacker_description) StdoutLine: {'line': b'copying meshes/wheel_left_back.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes\n'}
+[1.000823] (slam) StdoutLine: {'line': b"reading manifest file '../../build/slam/slam.egg-info/SOURCES.txt'\n"}
+[1.001251] (slam) StdoutLine: {'line': b"writing manifest file '../../build/slam/slam.egg-info/SOURCES.txt'\n"}
+[1.001774] (slam) StdoutLine: {'line': b'running build\n'}
+[1.002039] (-) TimerEvent: {}
+[1.002238] (slam) StdoutLine: {'line': b'running build_py\n'}
+[1.002844] (slam) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/slam/build\n'}
+[1.003012] (slam) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/slam/build/lib\n'}
+[1.003163] (slam) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/slam/build/lib/slam\n'}
+[1.003284] (jetacker_description) StdoutLine: {'line': b'copying meshes/base_link.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes\n'}
+[1.003421] (navigation) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/navigation/install.log'\n"}
+[1.003585] (robot_gazebo) StdoutLine: {'line': b'copying meshes/wpr1/fingertip.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[1.003711] (robot_gazebo) StdoutLine: {'line': b'copying meshes/wpr1/palm.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[1.003846] (slam) StdoutLine: {'line': b'copying slam/__init__.py -> /home/ubuntu/ros2_ws/build/slam/build/lib/slam\n'}
+[1.003984] (slam) StdoutLine: {'line': b'running install\n'}
+[1.004233] (slam) StdoutLine: {'line': b'running install_lib\n'}
+[1.004271] (slam) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/slam/lib/python3.10/site-packages/slam\n'}
+[1.004297] (slam) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/slam/build/lib/slam/__init__.py -> /home/ubuntu/ros2_ws/install/slam/lib/python3.10/site-packages/slam\n'}
+[1.004320] (slam) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/slam/lib/python3.10/site-packages/slam/__init__.py to __init__.cpython-310.pyc\n'}
+[1.004339] (slam) StdoutLine: {'line': b'running install_data\n'}
+[1.004357] (slam) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/slam/share/ament_index\n'}
+[1.004374] (slam) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/slam/share/ament_index/resource_index\n'}
+[1.004392] (slam) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/slam/share/ament_index/resource_index/packages\n'}
+[1.004410] (slam) StdoutLine: {'line': b'copying resource/slam -> /home/ubuntu/ros2_ws/install/slam/share/ament_index/resource_index/packages\n'}
+[1.004428] (slam) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/install/slam/share/slam\n'}
+[1.004445] (slam) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/slam/share/slam/launch\n'}
+[1.004466] (slam) StdoutLine: {'line': b'copying launch/rviz_rtabmap.launch.py -> /home/ubuntu/ros2_ws/install/slam/share/slam/launch\n'}
+[1.004624] (robot_gazebo) StdoutLine: {'line': b'copying meshes/wpr1/finger.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[1.005006] (slam) StdoutLine: {'line': b'copying launch/rtabmap_slam.launch.py -> /home/ubuntu/ros2_ws/install/slam/share/slam/launch\n'}
+[1.005189] (jetacker_description) StdoutLine: {'line': b'copying meshes/lidar_link.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes\n'}
+[1.005416] (slam) StdoutLine: {'line': b'copying launch/rviz_slam.launch.py -> /home/ubuntu/ros2_ws/install/slam/share/slam/launch\n'}
+[1.005685] (slam) StdoutLine: {'line': b'copying launch/slam.launch.py -> /home/ubuntu/ros2_ws/install/slam/share/slam/launch\n'}
+[1.006076] (slam) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/slam/share/slam/launch/include\n'}
+[1.006379] (slam) StdoutLine: {'line': b'copying launch/include/robot.launch.py -> /home/ubuntu/ros2_ws/install/slam/share/slam/launch/include\n'}
+[1.006652] (slam) StdoutLine: {'line': b'copying launch/include/slam_base.launch.py -> /home/ubuntu/ros2_ws/install/slam/share/slam/launch/include\n'}
+[1.007136] (slam) StdoutLine: {'line': b'copying launch/include/rtabmap.launch.py -> /home/ubuntu/ros2_ws/install/slam/share/slam/launch/include\n'}
+[1.007725] (robot_gazebo) StdoutLine: {'line': b'copying meshes/wpr1/forearm.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[1.007884] (jetacker_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.008184] (slam) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/slam/share/slam/config\n'}
+[1.008589] (slam) StdoutLine: {'line': b'copying config/slam.yaml -> /home/ubuntu/ros2_ws/install/slam/share/slam/config\n'}
+[1.008811] (slam) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/slam/share/slam/rviz\n'}
+[1.009271] (slam) StdoutLine: {'line': b'copying rviz/rtabmap.rviz -> /home/ubuntu/ros2_ws/install/slam/share/slam/rviz\n'}
+[1.009336] (jetacker_description) StdoutLine: {'line': b'Copying ../../build/jetacker_description/jetacker_description.egg-info to /home/ubuntu/ros2_ws/install/jetacker_description/lib/python3.10/site-packages/jetacker_description-0.0.0-py3.10.egg-info\n'}
+[1.009502] (slam) StdoutLine: {'line': b'copying rviz/slam.rviz -> /home/ubuntu/ros2_ws/install/slam/share/slam/rviz\n'}
+[1.009580] (robot_gazebo) StdoutLine: {'line': b'copying meshes/wpr1/torso.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1\n'}
+[1.010150] (jetacker_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.010271] (slam) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/slam/share/slam/maps\n'}
+[1.010322] (slam) StdoutLine: {'line': b'copying maps/map_01.yaml -> /home/ubuntu/ros2_ws/install/slam/share/slam/maps\n'}
+[1.010684] (slam) StdoutLine: {'line': b'copying maps/map_01.pgm -> /home/ubuntu/ros2_ws/install/slam/share/slam/maps\n'}
+[1.010979] (slam) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.012882] (slam) StdoutLine: {'line': b'Copying ../../build/slam/slam.egg-info to /home/ubuntu/ros2_ws/install/slam/lib/python3.10/site-packages/slam-0.0.0-py3.10.egg-info\n'}
+[1.013874] (slam) StdoutLine: {'line': b'running install_scripts\n'}
+[1.014651] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models\n'}
+[1.015163] (robot_gazebo) StdoutLine: {'line': b'copying models/sofa.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models\n'}
+[1.015652] (robot_gazebo) StdoutLine: {'line': b'copying models/kai_standing.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models\n'}
+[1.016129] (robot_gazebo) StdoutLine: {'line': b'copying models/bed.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models\n'}
+[1.016528] (robot_gazebo) StdoutLine: {'line': b'copying models/tea_table.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models\n'}
+[1.017096] (robot_gazebo) StdoutLine: {'line': b'copying models/bookshelft.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models\n'}
+[1.017496] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bed\n'}
+[1.017825] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles\n'}
+[1.018152] (robot_gazebo) StdoutLine: {'line': b'copying models/bottles/red_bottle.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles\n'}
+[1.018763] (robot_gazebo) StdoutLine: {'line': b'copying models/bottles/green_bottle.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles\n'}
+[1.019237] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard\n'}
+[1.019572] (robot_gazebo) StdoutLine: {'line': b'copying models/cupboard/cupboard_1.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard\n'}
+[1.020110] (robot_gazebo) StdoutLine: {'line': b'copying models/cupboard/cupboard_0.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard\n'}
+[1.020675] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table\n'}
+[1.020883] (robot_gazebo) StdoutLine: {'line': b'copying models/table/dinning_table_0.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table\n'}
+[1.021493] (robot_gazebo) StdoutLine: {'line': b'copying models/table/kitchen_table.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table\n'}
+[1.022190] (robot_gazebo) StdoutLine: {'line': b'copying models/table/dinning_table_2.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table\n'}
+[1.023157] (robot_gazebo) StdoutLine: {'line': b'copying models/table/dinning_table_1.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table\n'}
+[1.023597] (robot_gazebo) StdoutLine: {'line': b'copying models/table/dinning_table_3.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table\n'}
+[1.024007] (robot_gazebo) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair\n'}
+[1.024690] (robot_gazebo) StdoutLine: {'line': b'copying models/chair/chair_1.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair\n'}
+[1.025251] (robot_gazebo) StdoutLine: {'line': b'copying models/chair/chair_2.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair\n'}
+[1.026485] (robot_gazebo) StdoutLine: {'line': b'copying models/chair/chair_0.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair\n'}
+[1.027094] (robot_gazebo) StdoutLine: {'line': b'copying models/chair/chair_3.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair\n'}
+[1.027213] (robot_gazebo) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.027284] (jetacker_description) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/jetacker_description/install.log'\n"}
+[1.027390] (navigation) CommandEnded: {'returncode': 0}
+[1.028059] (robot_gazebo) StdoutLine: {'line': b'Copying ../../build/robot_gazebo/robot_gazebo.egg-info to /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo-0.0.0-py3.10.egg-info\n'}
+[1.028441] (robot_gazebo) StdoutLine: {'line': b'running install_scripts\n'}
+[1.029178] (slam) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/slam/install.log'\n"}
+[1.041504] (robot_gazebo) StdoutLine: {'line': b'Installing teleop_key_control script to /home/ubuntu/ros2_ws/install/robot_gazebo/lib/robot_gazebo\n'}
+[1.042148] (robot_gazebo) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/robot_gazebo/install.log'\n"}
+[1.043021] (navigation) JobEnded: {'identifier': 'navigation', 'rc': 0}
+[1.055421] (slam) CommandEnded: {'returncode': 0}
+[1.060116] (slam) JobEnded: {'identifier': 'slam', 'rc': 0}
+[1.061184] (jetacker_description) CommandEnded: {'returncode': 0}
+[1.064471] (jetacker_description) JobEnded: {'identifier': 'jetacker_description', 'rc': 0}
+[1.066241] (robot_gazebo) CommandEnded: {'returncode': 0}
+[1.070344] (robot_gazebo) JobEnded: {'identifier': 'robot_gazebo', 'rc': 0}
+[1.071671] (-) EventReactorShutdown: {}

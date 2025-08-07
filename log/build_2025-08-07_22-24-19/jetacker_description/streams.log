@@ -1,0 +1,54 @@
+[0.861s] Invoking command in '/home/ubuntu/ros2_ws/src/jetacker_description': PYTHONPATH=/home/ubuntu/ros2_ws/build/jetacker_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/jetacker_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jetacker_description build --build-base /home/ubuntu/ros2_ws/build/jetacker_description/build install --record /home/ubuntu/ros2_ws/build/jetacker_description/install.log --single-version-externally-managed install_data
+[0.979s] running egg_info
+[0.982s] creating ../../build/jetacker_description/jetacker_description.egg-info
+[0.982s] writing ../../build/jetacker_description/jetacker_description.egg-info/PKG-INFO
+[0.982s] writing dependency_links to ../../build/jetacker_description/jetacker_description.egg-info/dependency_links.txt
+[0.983s] writing entry points to ../../build/jetacker_description/jetacker_description.egg-info/entry_points.txt
+[0.986s] writing requirements to ../../build/jetacker_description/jetacker_description.egg-info/requires.txt
+[0.986s] writing top-level names to ../../build/jetacker_description/jetacker_description.egg-info/top_level.txt
+[0.986s] writing manifest file '../../build/jetacker_description/jetacker_description.egg-info/SOURCES.txt'
+[0.986s] package init file 'jetacker_description/__init__.py' not found (or not a regular file)
+[0.988s] reading manifest file '../../build/jetacker_description/jetacker_description.egg-info/SOURCES.txt'
+[0.988s] writing manifest file '../../build/jetacker_description/jetacker_description.egg-info/SOURCES.txt'
+[0.988s] running build
+[0.988s] running build_py
+[0.988s] running install
+[0.989s] running install_lib
+[0.989s] running install_data
+[0.989s] creating /home/ubuntu/ros2_ws/install/jetacker_description/share/ament_index
+[0.989s] warning: install_lib: '/home/ubuntu/ros2_ws/build/jetacker_description/build/lib' does not exist -- no Python modules to install
+[0.989s] 
+[0.990s] creating /home/ubuntu/ros2_ws/install/jetacker_description/share/ament_index/resource_index
+[0.990s] creating /home/ubuntu/ros2_ws/install/jetacker_description/share/ament_index/resource_index/packages
+[0.990s] copying resource/jetacker_description -> /home/ubuntu/ros2_ws/install/jetacker_description/share/ament_index/resource_index/packages
+[0.992s] copying package.xml -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description
+[0.992s] creating /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/launch
+[0.993s] copying launch/robot_description.launch.py -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/launch
+[0.993s] copying launch/display.launch.py -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/launch
+[0.993s] copying launch/rviz.launch.py -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/launch
+[0.994s] creating /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf
+[0.994s] copying urdf/jetacker.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf
+[0.994s] copying urdf/imu.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf
+[0.994s] copying urdf/jetacker.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf
+[0.995s] copying urdf/inertial_matrix.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf
+[0.995s] copying urdf/materials.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf
+[0.995s] copying urdf/lidar_a1.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf
+[0.995s] copying urdf/lidar.gazebo.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf
+[0.995s] copying urdf/lidar_g4.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/urdf
+[0.995s] creating /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/rviz
+[0.995s] copying rviz/view.rviz -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/rviz
+[0.995s] creating /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes
+[0.995s] copying meshes/wheel_right_back.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes
+[0.995s] copying meshes/back_shell_link.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes
+[0.996s] copying meshes/depth_cam_link.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes
+[0.996s] copying meshes/wheel_left_front.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes
+[0.997s] copying meshes/link1.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes
+[0.999s] copying meshes/wheel_right_front.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes
+[1.000s] copying meshes/wheel_left_back.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes
+[1.003s] copying meshes/base_link.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes
+[1.005s] copying meshes/lidar_link.STL -> /home/ubuntu/ros2_ws/install/jetacker_description/share/jetacker_description/meshes
+[1.008s] running install_egg_info
+[1.009s] Copying ../../build/jetacker_description/jetacker_description.egg-info to /home/ubuntu/ros2_ws/install/jetacker_description/lib/python3.10/site-packages/jetacker_description-0.0.0-py3.10.egg-info
+[1.010s] running install_scripts
+[1.027s] writing list of installed files to '/home/ubuntu/ros2_ws/build/jetacker_description/install.log'
+[1.061s] Invoked command in '/home/ubuntu/ros2_ws/src/jetacker_description' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/jetacker_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/jetacker_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jetacker_description build --build-base /home/ubuntu/ros2_ws/build/jetacker_description/build install --record /home/ubuntu/ros2_ws/build/jetacker_description/install.log --single-version-externally-managed install_data
