@@ -1,0 +1,118 @@
+[1.350s] Invoking command in '/home/ubuntu/ros2_ws/build/robot_gazebo': PYTHONPATH=/home/ubuntu/ros2_ws/build/robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/robot_gazebo/build --no-deps symlink_data
+[1.622s] running develop
+[1.731s] running egg_info
+[1.731s] creating robot_gazebo.egg-info
+[1.732s] writing robot_gazebo.egg-info/PKG-INFO
+[1.734s] writing dependency_links to robot_gazebo.egg-info/dependency_links.txt
+[1.734s] writing entry points to robot_gazebo.egg-info/entry_points.txt
+[1.734s] writing requirements to robot_gazebo.egg-info/requires.txt
+[1.734s] writing top-level names to robot_gazebo.egg-info/top_level.txt
+[1.735s] writing manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[1.736s] reading manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[1.736s] writing manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[1.737s] running build_ext
+[1.738s] Creating /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot-gazebo.egg-link (link to .)
+[1.738s] Installing teleop_key_control script to /home/ubuntu/ros2_ws/install/robot_gazebo/lib/robot_gazebo
+[1.739s] 
+[1.739s] Installed /home/ubuntu/ros2_ws/build/robot_gazebo
+[1.739s] running symlink_data
+[1.740s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index
+[1.740s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index
+[1.740s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/packages
+[1.740s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/resource/robot_gazebo -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/packages
+[1.741s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/package.xml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo
+[1.741s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.741s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/room_with_box_and_goal.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.741s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/ros_ign_bridge.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.741s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/all_training.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.741s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/spwan_model.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.741s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/spawn_objects.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.741s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/room_worlds.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.742s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/spawn_model.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.742s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/worlds.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.743s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[1.743s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/urdf/imu.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[1.744s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/urdf/robot.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[1.744s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/urdf/camera.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[1.745s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/urdf/jetacker.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[1.745s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/urdf/wheel_base.urdf.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[1.746s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/urdf/lidar.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[1.746s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[1.746s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/config/slam.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[1.747s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/config/localization.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[1.747s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/config/nav2_controller_dwb.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[1.747s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/config/nav2_params.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[1.748s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/config/robot_config.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[1.748s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/config/nav2_controller_teb.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[1.748s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[1.749s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/worlds/empty.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[1.749s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/worlds/room_with_box_and_goal.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[1.750s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/worlds/robocup_home.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[1.750s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/worlds/all_training.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[1.750s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps
+[1.751s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/maps/map_01.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps
+[1.751s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/maps/map_01.pgm -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps
+[1.751s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz
+[1.752s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/rviz/nav_nav2.rviz -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz
+[1.752s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/rviz/slam.rviz -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz
+[1.752s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include
+[1.753s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/include/localization.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include
+[1.753s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/include/navigation.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include
+[1.754s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/include/slam.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include
+[1.755s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.756s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/bed.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.756s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/sofa.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.756s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/cupboard.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.757s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/chair.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.757s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/tea_table.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.759s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/bookshelft.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.759s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/table.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.759s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/bottle.stl -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.759s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+[1.759s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/bed/Wood_Bamboo.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+[1.760s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/bed/Carpet_Pattern_Squares_Multi.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+[1.761s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft
+[1.761s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/bookshelft/Wood_Veneer_02.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft
+[1.761s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/chair
+[1.762s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/chair/Wood_Cherry_Original.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/chair
+[1.764s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/cupboard
+[1.765s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/cupboard/Wood_Veneer_02.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/cupboard
+[1.766s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/sofa
+[1.766s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/sofa/Carpet_Loop_Pattern.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/sofa
+[1.766s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/table
+[1.767s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/tea_table/Wood_Cherry_Original.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/table
+[1.768s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/tea_table
+[1.768s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/tea_table/Wood_Cherry_Original.jpg -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/tea_table
+[1.769s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.769s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/wpr1/upperarm.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.770s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/wpr1/base.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.770s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/wpr1/fingertip.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.770s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/wpr1/palm.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.770s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/wpr1/finger.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.770s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/wpr1/forearm.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.771s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/meshes/wpr1/torso.dae -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.771s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[1.771s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/sofa.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[1.774s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/kai_standing.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[1.774s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/bed.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[1.774s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/tea_table.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[1.774s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/bookshelft.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[1.774s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bed
+[1.774s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+[1.774s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/bottles/red_bottle.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+[1.775s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/bottles/green_bottle.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+[1.775s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+[1.775s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/cupboard/cupboard_1.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+[1.775s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/cupboard/cupboard_0.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+[1.775s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[1.775s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/table/dinning_table_0.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[1.775s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/table/kitchen_table.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[1.775s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/table/dinning_table_2.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[1.775s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/table/dinning_table_1.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[1.775s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/table/dinning_table_3.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[1.775s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+[1.776s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/chair/chair_1.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+[1.776s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/chair/chair_2.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+[1.776s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/chair/chair_0.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+[1.776s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/models/chair/chair_3.model -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+[1.844s] Invoked command in '/home/ubuntu/ros2_ws/build/robot_gazebo' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/robot_gazebo/build --no-deps symlink_data

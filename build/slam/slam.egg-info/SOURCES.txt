@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/slam/slam.egg-info/PKG-INFO
-../../build/slam/slam.egg-info/SOURCES.txt
-../../build/slam/slam.egg-info/dependency_links.txt
-../../build/slam/slam.egg-info/entry_points.txt
-../../build/slam/slam.egg-info/requires.txt
-../../build/slam/slam.egg-info/top_level.txt
-../../build/slam/slam.egg-info/zip-safe
 config/slam.yaml
 launch/rtabmap_slam.launch.py
 launch/rviz_rtabmap.launch.py
@@ -22,6 +15,10 @@ resource/slam
 rviz/rtabmap.rviz
 rviz/slam.rviz
 slam/__init__.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+slam.egg-info/PKG-INFO
+slam.egg-info/SOURCES.txt
+slam.egg-info/dependency_links.txt
+slam.egg-info/entry_points.txt
+slam.egg-info/requires.txt
+slam.egg-info/top_level.txt
+slam.egg-info/zip-safe

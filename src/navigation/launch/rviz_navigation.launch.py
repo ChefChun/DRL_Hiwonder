@@ -17,7 +17,7 @@ def launch_setup(context):
         jetacker_description_package_path = get_package_share_directory('jetacker_description')
         navigation_package_path = get_package_share_directory('navigation')
     else:
-        jetacker_description_package_path = '/home/ubuntu/ros2_ws/src/simulations/jetacker_description'
+        jetacker_description_package_path = '/home/ubuntu/ros2_ws/src/jetacker_description'
         navigation_package_path = '/home/ubuntu/ros2_ws/src/navigation'
     rviz = LaunchConfiguration('rviz', default=os.path.join(navigation_package_path, 'rviz/navigation.rviz')).perform(context)
     rviz_arg = DeclareLaunchArgument('rviz', default_value=rviz)

@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/src/robot_gazebo/launch/room_with_box_and_goal.launch.py

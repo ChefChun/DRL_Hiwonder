@@ -1,0 +1,35 @@
+running develop
+running egg_info
+creating navigation.egg-info
+writing navigation.egg-info/PKG-INFO
+writing dependency_links to navigation.egg-info/dependency_links.txt
+writing entry points to navigation.egg-info/entry_points.txt
+writing requirements to navigation.egg-info/requires.txt
+writing top-level names to navigation.egg-info/top_level.txt
+writing manifest file 'navigation.egg-info/SOURCES.txt'
+reading manifest file 'navigation.egg-info/SOURCES.txt'
+writing manifest file 'navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/install/navigation/lib/python3.10/site-packages/navigation.egg-link (link to .)
+
+Installed /home/ubuntu/ros2_ws/build/navigation
+running symlink_data
+creating /home/ubuntu/ros2_ws/install/navigation/share/ament_index
+creating /home/ubuntu/ros2_ws/install/navigation/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/install/navigation/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/ros2_ws/build/navigation/resource/navigation -> /home/ubuntu/ros2_ws/install/navigation/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/ros2_ws/build/navigation/package.xml -> /home/ubuntu/ros2_ws/install/navigation/share/navigation
+creating /home/ubuntu/ros2_ws/install/navigation/share/navigation/launch
+symbolically linking /home/ubuntu/ros2_ws/build/navigation/launch/rtabmapviz.launch.py -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/launch
+symbolically linking /home/ubuntu/ros2_ws/build/navigation/launch/rtabmap_navigation.launch.py -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/launch
+symbolically linking /home/ubuntu/ros2_ws/build/navigation/launch/navigation.launch.py -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/launch
+symbolically linking /home/ubuntu/ros2_ws/build/navigation/launch/rviz_rtabmap_navigation.launch.py -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/launch
+symbolically linking /home/ubuntu/ros2_ws/build/navigation/launch/rviz_navigation.launch.py -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/launch
+creating /home/ubuntu/ros2_ws/install/navigation/share/navigation/config
+symbolically linking /home/ubuntu/ros2_ws/build/navigation/config/nav2_controller_dwb.yaml -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/config
+symbolically linking /home/ubuntu/ros2_ws/build/navigation/config/nav2_params.yaml -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/config
+symbolically linking /home/ubuntu/ros2_ws/build/navigation/config/nav2_controller_teb.yaml -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/config
+creating /home/ubuntu/ros2_ws/install/navigation/share/navigation/rviz
+symbolically linking /home/ubuntu/ros2_ws/build/navigation/rviz/navigation.rviz -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/rviz
+symbolically linking /home/ubuntu/ros2_ws/build/navigation/rviz/rtabmap.rviz -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/rviz
+symbolically linking /home/ubuntu/ros2_ws/build/navigation/rviz/navigation_transport.rviz -> /home/ubuntu/ros2_ws/install/navigation/share/navigation/rviz
